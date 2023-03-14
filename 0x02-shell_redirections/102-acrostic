@@ -1,2 +1,2 @@
 #!/bin/bash
-head -n 1 acrostic | tail acrostic| cut -b 1 | paste -s -d ' ' | tr -d ' '
+tail | cut -b 1 | paste -s -d ' ' | tr -d ' '
